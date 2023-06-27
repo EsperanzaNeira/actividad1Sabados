@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet"  type="text/css" href="./css/estilos.css">
+    <link rel="stylesheet"  type="text/css" href="./css/menu.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo">
+                
+                    <!--imagen del logo-->
+                    <img src="./imagenes/logo.png" alt="">
+                
+            </li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./contactenos.html">Contactenos</a></li>
+        <!--    <li><a href="#">Materias</a></li>-->
+        </ul>
+    
+    </nav>
+
+<div class="container">
+<h1>Formulario personajes de Rick and Morty</h1>
+<div>
+<form action="" method="post">
+<div class="section-flex">
+    <div class="elemnt-form">
+        <div class="label">
+            <label for="type">Tipo de Mensaje</label>
+
+        </div>
+        <select name="type" id="type">
+            <option value="">Seleccione una opcion</option>
+            <option value="Cotizacion">Cotizacion</option>
+            <option value="Saludo">Saludo</option>
+            <option value="Queja">Queja</option>
+        </select>
+
+    </div>
+
+    <div class="elemnt-form">
+        <div class="label">
+            <label for="name">Nombres</label>
+
+        </div>
+        <input type="text" name="name" id="name" placeholder="Ingrese su nombre completo">
+
+    </div>
+
+    <div class="elemnt-form">
+        <div class="label">
+            <label for="Email">Email</label>
+
+        </div>
+        <input type="text" name="Email" id="Email" placeholder="example@correo.com">
+
+    </div>
+
+    <div class="elemnt-form">
+        <div class="label">
+            <label for="phone">Celular</label>
+
+        </div>
+        <input type="text" name="phone" id="phone" placeholder="Ingrese su celular">
+
+    </div>
+
+    <div class="elemnt-form">
+        <div class="label">
+            <label for="comment">Comentario</label>
+
+        </div>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+
+    </div>
+
+    <div class="btn-div">
+        <button type="submit" onclick="validaciondatos()">Enviar Datos</button>
+    </div>
+
+
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+
+    <footer>
+
+        <p>Creado por Esperanza neira </p>
+    </footer>
+    <script src="./js/javascript.js"></script>
+</body>
+</html>
